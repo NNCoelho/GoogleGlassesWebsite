@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Google Glass</title>
+    <link rel="stylesheet" href="Css/main.css"/>
+    <link rel="stylesheet" href="Css/media.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+</head>
+<script src = "js/funcoes.js"> </script>
+<body>
+<div id="interface">
+
+    <header id="cabecalho">
+        <hgroup>
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está a chegar</h2>
+        </hgroup>
+    
+        <img id="icone" class="text-right" src="images/multimedia.png"/> 
+
+        <nav id="menu">
+        <h1>Menu Principal</h1>
+            <ul>
+            <li onmouseover="mudaFoto('images/home.png')" onmouseout="mudaFoto('images/multimedia.png')"><a href="index.html" >Home</a></li> 
+            <li onmouseover="mudaFoto('images/especificacoes.png')" onmouseout="mudaFoto('images/multimedia.png')"><a href="specs.html">Especificações</a></li> 
+            <li onmouseover="mudaFoto('images/fotos.png')" onmouseout="mudaFoto('images/multimedia.png')"><a href="fotos.html">Fotos</a></li> 
+            <li onmouseover="mudaFoto('images/multimedia.png')" onmouseout="mudaFoto('images/multimedia.png')"><a href="multimedia.html">Multimédia</a></li> 
+            <li onmouseover="mudaFoto('images/contato.png')" onmouseout="mudaFoto('images/multimedia.png')"><a href="faleconnosco.html">Fale Connosco</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <section id="corpofull">
+            <article id="noticia-principal">
+                <header id="cabecalho-artigo">
+                    <hgroup>    
+                        <h3>Glass > Multimédia</h3>
+                        <h1>Áudio e Vídeos</h1>
+                        <h2>por Nuno Coelho Dos Santos</h2>
+                    </hgroup>
+                </header>
+                <div id="tv-radio">
+                    <audio id="musica" controls="controls">
+                        <source src="Media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+                        <source src="Media/2009-lovers-carvings-bibio.oggvorbis.ogg" type="audio/ogg"/>
+                        <source src="Media/2009-lovers-carvings-bibio.m4a" type="audio/x-aac"/>
+                        Desculpe, mas não foi possivel carregar o Áudio.
+                    </audio>
+                    <video id="filme" controls="controls" poster="images/video-mini03.jpg">
+                        <source src="Media/getting-started.mp4" type="video/mp4"/>
+                        <source src="Media/getting-started.webm" type="video/webm"/>
+                        <source src="Media/getting-started.ogv" type="video/ogg"/>
+                        Desculpe, mas não foi possivel carregar o Vídeo.
+                    </video>
+                </div>
+            </article> 
+    </section>
+
+<footer id="rodape">
+    <p>2018 - by Nuno Coelho Dos Santos<br/>
+        <a href="http://www.Facebook.com" target="_blank">Facebook</a>  
+        <a href="http://www.Twitter.com" target="_blank">Twitter</a></p>    
+</footer>
+
+</div>
+</body>
+</html>
