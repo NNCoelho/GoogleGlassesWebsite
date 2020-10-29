@@ -1,6 +1,6 @@
 /* FICHEIRO PRINCIPAL DE CSS */
-
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+
 @font-face {
     font-family: FontLogo;
     src: url("../Fonts/bubblegum-sans-regular.otf")
@@ -69,7 +69,6 @@ header#cabecalho h2{
 }
 
 /* FORMATAÇÃO DE IMAGENS COM LEGENDAS */
-
 figure.foto-legenda{
     position: relative;
     border: 8px solid white;
@@ -99,7 +98,6 @@ figure.foto-legenda:hover figcaption{
 }
 
 /* FORMATAÇÃO DO MENU */
-
 nav#menu{
     display: block;
 }
@@ -250,6 +248,6 @@ footer#rodape{
     border-top: 1px solid #606060;
 }
 
-footer#rodape p{
+footer#rodape{
     text-align: center;
 }

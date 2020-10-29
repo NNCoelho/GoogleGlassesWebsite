@@ -1,5 +1,4 @@
-/*Ficheiro de CSS De Fale Connosco*/
-
+/* FICHEIRO DE CSS DE FALE CONNOSCO */
 @charset "UTF-8";
 
 form{
@@ -35,18 +34,10 @@ fieldset#sexo{
     width: 150px;
 }
 
-fieldset#utilizador{
-    background: url("../images/icone-contato.png") no-repeat 95% 95%;
-}
+fieldset#utilizador{background: url("../images/icone-contato.png") no-repeat 95% 95%;}
 
-fieldset#endereco{
-    background: url("../images/icone-endereco.png") no-repeat 95% 95%;
-}
+fieldset#endereco{background: url("../images/icone-endereco.png") no-repeat 95% 95%;}
 
-fieldset#mensagem{
-    background: url("../images/icone-mensagem.png") no-repeat 95% 95%;
-}
+fieldset#mensagem{background: url("../images/icone-mensagem.png") no-repeat 95% 95%;}
 
-fieldset#pedido{
-    background: url("../images/icone-pagamento.png") no-repeat 95% 95%;
-}
+fieldset#pedido{background: url("../images/icone-pagamento.png") no-repeat 95% 95%;}
