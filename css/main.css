@@ -17,11 +17,12 @@ div#interface{
     background-color: #ffffff;
     margin: -20px 20px 10px 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
-    padding: 25px;
+    padding: 20px;
 }
 
 div#tv-radio1{
     text-align: center;
+    margin-bottom: 20px;
 }
 
 
@@ -48,7 +49,7 @@ header#cabecalho img#icone{
 header#cabecalho{
     border-bottom: 1px #606060 solid;
     height: 150px;
-    background: url("../images/glass-logo-peq.jpg") no-repeat 0px 84px;
+    background: url("../images/glass-logo-peq.jpg") no-repeat -6px 84px;
 }
 
 header#cabecalho h1{
@@ -225,9 +226,8 @@ aside#lateral{
     float: left;
     background-color: #dddddd;
     padding: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-    
+    margin-top: 25px;
+    margin-left: 25px;    
     box-shadow: 2px 2px 2px rgba(0,0,0,.5);
 }
 
