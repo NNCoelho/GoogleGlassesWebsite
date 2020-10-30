@@ -25,7 +25,6 @@ div#tv-radio1{
     margin-bottom: 20px;
 }
 
-
 p{                          
     text-align: justify; 
     text-indent:50px;
@@ -38,6 +37,7 @@ a{
 
 a:hover{
     text-decoration: underline;
+    color: rgb(241, 179, 9);
 }
 
 header#cabecalho img#icone{
@@ -191,18 +191,19 @@ table#tabelaspec{
 table#tabelaspec td{
     border: 1px solid #606060;
     padding: 10px;
-    text-align: center;
-    vertical-align: top;
+    vertical-align: center;
 }
 
 table#tabelaspec td.ce{
-    color: #ffffff;
-    background-color: #606060;
+    color: #000000;
+    background-color: #929191;
     font-weight: bold; 
+    text-align: right;
 }
 
 table#tabelaspec td.cd{
     background-color: #cecece;
+    text-align: left;
 }
 
 table#tabelaspec caption{
